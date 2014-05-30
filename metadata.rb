@@ -1,0 +1,12 @@
+name             'cloudmux'
+maintainer       'TranscendComputing'
+maintainer_email 'cstewart@momentumsi.com'
+license          'Apache 2.0'
+description      'Installs/Configures cloudmux'
+long_description 'Installs/Configures cloudmux'
+version          '0.1.0'
+
+depends 'apt'
+depends 'ruby_build'
+depends 'mongodb'
+depends 'passenger_apache2'
